@@ -22,3 +22,5 @@ This will start the server on port 8080. You can optionally pass a port number a
 npm start 3000
 ```
 
+You should now see JSON data at http://localhost:8080/experiences and http://localhost:8080/education
+

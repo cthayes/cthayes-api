@@ -14,12 +14,12 @@ if (process.argv.length == 3) {
 }
 
 
-router.get('/education', function (ctx, next) {
+router.get('/education', async function (ctx, next) {
   ctx.body = JSON.stringify(education)
   ctx.response.status = 200;
 });
 
-router.get('/experiences', function (ctx, next) {
+router.get('/experiences', async function (ctx, next) {
   ctx.body = JSON.stringify(experiences)
   ctx.response.status = 200;
 });

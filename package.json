@@ -19,6 +19,7 @@
   "homepage": "https://github.com/cthayes/cthayes-api#readme",
   "dependencies": {
     "koa": "^2.3.0",
+    "koa-cors": "0.0.16",
     "koa-router": "^7.2.1"
   }
 }

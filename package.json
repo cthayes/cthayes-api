@@ -1,0 +1,24 @@
+{
+  "name": "cthayes-api",
+  "version": "1.0.0",
+  "description": "A Rest API built with NodeJS that serves data to http://cthayes.net",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cthayes/cthayes-api.git"
+  },
+  "author": "Christopher Hayes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cthayes/cthayes-api/issues"
+  },
+  "homepage": "https://github.com/cthayes/cthayes-api#readme",
+  "dependencies": {
+    "koa": "^2.3.0",
+    "koa-router": "^7.2.1"
+  }
+}

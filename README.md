@@ -1,7 +1,12 @@
 # cthayes-api
 A Rest API built with NodeJS & Koa that serves data to http://cthayes.net
 
+
+## Prereqs
+You'll need to install NodeJS and npm. The Git cli is optional, but makes it easy to download the repo.
+
 ## Installation
+In a terminal enter the following:
 
 ```
 git clone https://github.com/cthayes/cthayes-api.git

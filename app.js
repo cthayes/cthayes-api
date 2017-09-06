@@ -4,9 +4,14 @@ const Router = require('koa-router');
 const app = new Koa();
 const router = new Router();
 
+const experiences = require('./data/experiences');
+const education = require('./data/education');
 
-let experiences = require('./data/experiences');
-let education = require('./data/education');
+let port = 8080
+
+if (process.argv.length == 3) {
+	port = process.argv[2]
+}
 
 
 router.get('/education', function (ctx, next) {
@@ -22,6 +27,5 @@ router.get('/experiences', function (ctx, next) {
 app.use(router.routes());
 app.use(router.allowedMethods());
 
-app.listen(8080);
-
-console.log('Server listening on port 8080');
+app.listen(port);
+console.log(`Server listening on port ${port}`);
